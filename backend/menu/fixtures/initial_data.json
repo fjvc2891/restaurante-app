@@ -1,0 +1,112 @@
+[
+  {
+    "model": "menu.category",
+    "pk": 1,
+    "fields": {
+      "name": "Entradas",
+      "slug": "entradas",
+      "icon": "salad",
+      "order": 1
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 2,
+    "fields": {
+      "name": "Fuertes",
+      "slug": "fuertes",
+      "icon": "dish",
+      "order": 2
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 3,
+    "fields": {
+      "name": "Bebidas",
+      "slug": "bebidas",
+      "icon": "cup",
+      "order": 3
+    }
+  },
+  {
+    "model": "menu.category",
+    "pk": 4,
+    "fields": {
+      "name": "Postres",
+      "slug": "postres",
+      "icon": "cake",
+      "order": 4
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Ensalada",
+      "description": "Ensalada fresca.",
+      "price": "18000.00",
+      "image": "",
+      "available": true,
+      "featured": false,
+      "created_at": "2024-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Sopa",
+      "description": "Sopa del dia.",
+      "price": "14000.00",
+      "image": "",
+      "available": true,
+      "featured": false,
+      "created_at": "2024-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "category": 2,
+      "name": "Carne",
+      "description": "Filete con papas.",
+      "price": "55000.00",
+      "image": "",
+      "available": true,
+      "featured": true,
+      "created_at": "2024-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 4,
+    "fields": {
+      "category": 3,
+      "name": "Jugo",
+      "description": "Jugo natural.",
+      "price": "9000.00",
+      "image": "",
+      "available": true,
+      "featured": false,
+      "created_at": "2024-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "category": 4,
+      "name": "Postre",
+      "description": "Dulce del dia.",
+      "price": "15000.00",
+      "image": "",
+      "available": true,
+      "featured": true,
+      "created_at": "2024-01-01T12:00:00Z"
+    }
+  }
+]
